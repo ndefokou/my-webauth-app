@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node index.ts",
+    "dev": "ts-node ./src/index.ts",
     "format": "prettier --write '**/*.{ts,js,json,md}'"
   },
   "devDependencies": {
