@@ -1,19 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2022", 
-    "module": "ESNEXT",
+    "target": "ES6",
+    "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true, 
-    "outDir": "dist/esm",
-
-    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "./src/**/*.ts",
-    "src/__test__/global.d.ts",
-    "jest_config/global.mock.d.ts"
-  ],
-  "exclude": [
-    "./src/**/*.test.ts",
-  ]
+  "include": ["src/**/*.ts"]
 }
